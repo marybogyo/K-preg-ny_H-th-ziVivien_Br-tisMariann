@@ -15,7 +15,7 @@ main {
   width: 80%;
   border-radius: 8px;
   border: 1px solid bisque;
-  background-color: rgb(34, 164, 240);
+  background-color: rgba(240, 190, 88);
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -38,14 +38,14 @@ footer{
     font-weight: bold;
 }
 nav{
-    background-color: rgb(241, 180, 226);
+    background-color: rgb(118, 60, 31);
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 nav a{
-    color: purple;  
+    color: bisque;  
     font-weight: lighter;
     font-size: x-large;
     justify-content: center;
@@ -93,6 +93,19 @@ div img{
     align-items: center;
   }
   
+.urlap{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(74, 6, 6);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+
   .flex-item {
     flex: 1;
 margin: 2px;

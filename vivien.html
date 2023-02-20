@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hétházi Vivien,Brátis Marianna</title>
+    <link rel="stylesheet" href="stilus.css" />
+  </head>
+  <body>
+    <main>
+        <header>
+            <h1>Állatos nyereményjáték</h1>
+        </header>
+        <nav>
+            <a href="index.html">Főldal</a>
+            <a href="mariann.html">Képregény</a>
+            <a href="vivien.html">Űrlap</a>
+        </nav>
+      <article class="urlap">
+        <h2>Nevezői adatok:</h2>
+        <form>
+          <fieldset id="nevek">
+            <legend>Tulajdonos:</legend>
+            <label for="vnev">Vezetéknév: </label>
+            <input type="text" id="vnev" name="vnev" placeholder="vezetéknév" />
+            <label for="knev">Keresztnév: </label>
+            <input type="text" id="knev" name="knev" placeholder="keresztnév" />
+          </fieldset>
+          <fieldset id="nevek">
+            <legend>Kiskedvenc:</legend>
+            <label for="allatn">Állat neve: </label>
+            <input type="text" id="allatn" name="allatn" placeholder="állat neve" />
+          </fieldset>
+          <fieldset>
+            <legend>Kedvenc neme:</legend>
+            <input type="radio" id="hím" name="nem" value="hím" />
+            <label for="hím">hím</label><br />
+            <input type="radio" id="nőstény" name="nem" value="nőstény" />
+            <label for="nőstény">nőstény</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Milyen állat?</legend>
+            <input type="radio" id="kutya" name="faj" value="kutya" />
+            <label for="no">kutya</label><br />
+            <input type="radio" id="macska" name="faj" value="macska" />
+            <label for="kan">macska</label><br />
+            <input type="radio" id="rágcsáló" name="faj" value="rágcsáló" />
+            <label for="kan">rágcsáló</label><br />
+            <input type="radio" id="madár" name="faj" value="madár" />
+            <label for="kan">madár</label><br />
+            <input type="radio" id="hüllő" name="faj" value="hüllő" />
+            <label for="kan">hüllő</label><br />
+            <input type="radio" id="hal" name="faj" value="hal" />
+            <label for="kan">hal</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Választott nyeremény:</legend>
+            <input type="radio" id="tap" name="fav_language" value="tap" />
+            <label for="tap">Eledel</label><br />
+            <input type="radio" id="juti" name="fav_language" value="juti" />
+            <label for="juti">Jutalomfalat/vitamin válogatás</label><br />
+            <input type="radio" id="jatek" name="fav_language" value="jatek" />
+            <label for="jatek">Zákbamacska játék, vagy kiegészítő (3 db)</label>
+          </fieldset>
+          <input
+            type="button"
+            value="Küldés"
+            onclick="alert('Nevezés rögzítve!')"
+          />
+        </form>
+      </article>
+      <footer>Készítette: Hétházi Vivien, Brátis Marianna</footer>
+    </main>
+  </body>
+</html>
