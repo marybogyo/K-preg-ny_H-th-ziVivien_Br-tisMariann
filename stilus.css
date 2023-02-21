@@ -81,7 +81,8 @@ article img{
     margin: 0 auto;
 }
 div img{
-    height: 500px;
+    max-height: 500px;
+  
    
 }
 
