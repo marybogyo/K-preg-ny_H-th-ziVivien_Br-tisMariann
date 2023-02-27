@@ -12,7 +12,7 @@ background-size: cover;
 }
 main {    
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   border-radius: 8px;
   border: 1px solid bisque;
   background-color: rgba(240, 190, 88);
@@ -60,7 +60,7 @@ article{
     justify-content: center;
     align-items: stretch;
     align-content: stretch;
-    background-color: gray;
+    background-color: rgb(170, 80, 80);
 
 }
 .fooldal{
@@ -71,7 +71,7 @@ article{
     align-items: stretch;
     align-content: stretch;
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(170, 80, 80);
 }
 article img{
     flex-direction: row;
@@ -90,29 +90,44 @@ div img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
 .urlap{
-  padding: 20px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   color: rgb(74, 6, 6);
 }
-
+.button{
+  width: 150px;
+  margin-top: 20px;
+}
 h2 {
   margin-bottom: 20px;
 }
 
+legend, label, input, fieldset, br{
+  padding: 10px;
+}
 
-
-  .flex-item {
-    flex: 1;
+.flex-item {
+    flex: 0 0 200px;
 margin: 2px;
   }
-@media all and (max-width:500px){
+@media all and (max-width:700px){
     nav{
         flex-flow: column wrap;
     }
+}
+@media all and (max-width:500px){
+  nav{
+      flex-flow: column wrap;
+  }
+}
+@media all and (max-width:300px){
+  nav{
+      flex-flow: column wrap;
+  }
 }
